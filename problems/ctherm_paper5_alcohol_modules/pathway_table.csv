@@ -1,0 +1,5 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+butanol_acetyl-coa_43,butanol_acetyl-coa_43,"['ACACCT', 'HACD1', 'RS3HBUTCOISO', 'R3HYBUTCOAHY', 'BUTCOAORED', 'BTCOARx', 'ALCD4']",btoh_c,,accoa_c,,
+ethanol_pyruvate_0,ethanol_pyruvate_0,"['PDH', 'ACALD', 'ALCD2x']",etoh_c,,pyr_c,,
+isobutanol_pyruvate_0,isobutanol_pyruvate_0,"['ACLS', 'DIMBUTORED', 'DHAD1', 'KIVDC1', 'ALCD_ibut']",ibut_c,,pyr_c,,
+1-propanol_acetyl-coa_0,1-propanol_acetyl-coa_0,"['MMSAD3', '3HPPD', '3HYPROPCOALIG', 'HPHL', 'PROPCOAORED', 'MMSAD2', 'ALCD3ir']",ppoh_c,,accoa_c,,

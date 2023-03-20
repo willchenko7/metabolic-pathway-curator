@@ -1,0 +1,6 @@
+id,name,formula,charge,kegg_id,bigg_id,notes
+etoh,ethanol,C2H6O,0,C00469,etoh_c,
+acald,acetaldehyde,C2H4O,0,C00084,acald_c,
+nadh,NADH,C21H27N7O14P2,0,C00004,nadh_c,
+nad,NAD+,C21H26N7O14P2,0,C00003,nad_c,
+h,H+,H,0,C00080,h_c,

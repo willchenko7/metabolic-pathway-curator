@@ -1,0 +1,1824 @@
+{
+"metabolites": [
+{
+"id": "f6p_c",
+"name": "fructose 6-phosphate",
+"compartement": "c",
+"charge": -2.0,
+"formula": "C6H11O9P",
+"annotation": {}
+},
+{
+"id": "xu5p__D_c",
+"name": "D-Xylulose 5-phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H9O8P",
+"annotation": {}
+},
+{
+"id": "e4p_c",
+"name": "D-Erythrose 4-phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C4H7O7P",
+"annotation": {}
+},
+{
+"id": "f6p_c",
+"name": "beta-D-Fructose",
+"compartement": "c",
+"charge": -2,
+"formula": "C6H11O9P",
+"annotation": {}
+},
+{
+"id": "g3p_c",
+"name": "D-Glyceraldehyde",
+"compartement": "c",
+"charge": -2,
+"formula": "C3H5O6P",
+"annotation": {}
+},
+{
+"id": "ru5p__D_c",
+"name": "D-Ribulose 5-phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H9O8P",
+"annotation": {}
+},
+{
+"id": "r5p_c",
+"name": "Ribose 5-phosphate",
+"compartement": "c",
+"charge": -2.0,
+"formula": "C5H9O8P",
+"annotation": {}
+},
+{
+"id": "prpp_c",
+"name": "5-Phospho-alpha-D-ribose 1-diphosphate",
+"compartement": "c",
+"charge": -5,
+"formula": "C5H8O14P3",
+"annotation": {}
+},
+{
+"id": "atp_c",
+"name": "atp",
+"compartement": "c",
+"charge": -4,
+"formula": "C10H12N5O13P3",
+"annotation": {}
+},
+{
+"id": "amp_c",
+"name": "AMP",
+"compartement": "c",
+"charge": -2,
+"formula": "C10H12N5O7P",
+"annotation": {}
+},
+{
+"id": "prbatp_c",
+"name": "1-(5-Phospho-D-ribosyl)-ATP",
+"compartement": "c",
+"charge": -6,
+"formula": "C15H19N5O20P4",
+"annotation": {}
+},
+{
+"id": "prbatp_c",
+"name": "1-(5-Phospho-D-ribosyl)-ATP",
+"compartement": "c",
+"charge": -6,
+"formula": "C15H19N5O20P4",
+"annotation": {}
+},
+{
+"id": "ppi_c",
+"name": "Diphosphate",
+"compartement": "c",
+"charge": -3,
+"formula": "H1P2O7",
+"annotation": {}
+},
+{
+"id": "prbamp_c",
+"name": "Phosphoribosyl-AMP",
+"compartement": "c",
+"charge": -4,
+"formula": "C15H19N5O14P2",
+"annotation": {}
+},
+{
+"id": "h_c",
+"name": "H+",
+"compartement": "c",
+"charge": 1,
+"formula": "H",
+"annotation": {}
+},
+{
+"id": "h2o_c",
+"name": "H2O",
+"compartement": "c",
+"charge": 0,
+"formula": "H2O",
+"annotation": {}
+},
+{
+"id": "prfp_c",
+"name": "5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide",
+"compartement": "c",
+"charge": -4,
+"formula": "C15H21N5O15P2",
+"annotation": {}
+},
+{
+"id": "prlp_c",
+"name": "N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide",
+"compartement": "c",
+"charge": -4,
+"formula": "C15H21N5O15P2",
+"annotation": {}
+},
+{
+"id": "eig3p_c",
+"name": "D-erythro-Imidazole-glycerol 3-phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C6H9N2O6P",
+"annotation": {}
+},
+{
+"id": "aicar_c",
+"name": "1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide",
+"compartement": "c",
+"charge": -2,
+"formula": "C9H13N4O8P",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "imacp_c",
+"name": "Imidazole-acetol phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C6H7N2O5P",
+"annotation": {}
+},
+{
+"id": "hisp_c",
+"name": "L-Histidinol phosphate",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H11N3O4P",
+"annotation": {}
+},
+{
+"id": "glu__L_c",
+"name": "L-glutamate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H8NO4",
+"annotation": {}
+},
+{
+"id": "akg_c",
+"name": "2-oxoglutarate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H4O5",
+"annotation": {}
+},
+{
+"id": "histd_c",
+"name": "L-Histidinol",
+"compartement": "c",
+"charge": 1,
+"formula": "C6H12N3O",
+"annotation": {}
+},
+{
+"id": "pi_c",
+"name": "Orthophosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "H1PO4",
+"annotation": {}
+},
+{
+"id": "his__L_c",
+"name": "L-Histidine",
+"compartement": "c",
+"charge": 0,
+"formula": "C6H9N3O2",
+"annotation": {}
+},
+{
+"id": "nadh_c",
+"name": "NADH",
+"compartement": "c",
+"charge": -2,
+"formula": "C21H27N7O14P2",
+"annotation": {}
+},
+{
+"id": "nad_c",
+"name": "NAD+",
+"compartement": "c",
+"charge": -1,
+"formula": "C21H26N7O14P2",
+"annotation": {}
+},
+{
+"id": "3pg_c",
+"name": "3-Phospho-D-glycerate",
+"compartement": "c",
+"charge": -3,
+"formula": "C3H4O7P",
+"annotation": {}
+},
+{
+"id": "3php_c",
+"name": "3-Phosphonooxypyruvate",
+"compartement": "c",
+"charge": -3,
+"formula": "C3H2O7P",
+"annotation": {}
+},
+{
+"id": "pser__L_c",
+"name": "Phosphoserine",
+"compartement": "c",
+"charge": -2,
+"formula": "C3H6NO6P",
+"annotation": {}
+},
+{
+"id": "ser__L_c",
+"name": "L-serine",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H7NO3",
+"annotation": {}
+},
+{
+"id": "gly_c",
+"name": "glycine",
+"compartement": "c",
+"charge": 0,
+"formula": "C2H5NO2",
+"annotation": {}
+},
+{
+"id": "hpyr_c",
+"name": "Hydroxypyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H3O4",
+"annotation": {}
+},
+{
+"id": "glx_c",
+"name": "Glyoxylate",
+"compartement": "c",
+"charge": -1,
+"formula": "C2H1O3",
+"annotation": {}
+},
+{
+"id": "thr__L_c",
+"name": "L-threonine",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H9NO3",
+"annotation": {}
+},
+{
+"id": "acald_c",
+"name": "acetaldehyde",
+"compartement": "c",
+"charge": 0,
+"formula": "C2H4O",
+"annotation": {}
+},
+{
+"id": "cys__L_c",
+"name": "L-cysteine",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H7NO2S",
+"annotation": {}
+},
+{
+"id": "h2s_c",
+"name": "Hydrogen",
+"compartement": "c",
+"charge": -1,
+"formula": "H1S",
+"annotation": {}
+},
+{
+"id": "cyst__L_c",
+"name": "L-Cystathionine",
+"compartement": "c",
+"charge": 0,
+"formula": "C7H14N2O4S",
+"annotation": {}
+},
+{
+"id": "hcys__L_c",
+"name": "L-Homocysteine",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H9NO2S",
+"annotation": {}
+},
+{
+"id": "hcys__L_c",
+"name": "L-Homocysteine",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H9NO2S",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "pyr_c",
+"name": "pyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H3O3",
+"annotation": {}
+},
+{
+"id": "met__L_c",
+"name": "L-Methionine",
+"compartement": "c",
+"charge": 0,
+"formula": "C5H11NO2S",
+"annotation": {}
+},
+{
+"id": "amet_c",
+"name": "S-Adenosyl-L-methionine",
+"compartement": "c",
+"charge": 1,
+"formula": "C15H23N6O5S",
+"annotation": {}
+},
+{
+"id": "ahcys_c",
+"name": "S-Adenosyl-L-homocysteine",
+"compartement": "c",
+"charge": 0,
+"formula": "C14H20N6O5S",
+"annotation": {}
+},
+{
+"id": "R2methmal_c",
+"name": "(R)-2-Methylmalate",
+"compartement": "c",
+"charge": -1.0,
+"formula": "C5H7O5",
+"annotation": {}
+},
+{
+"id": "coa_c",
+"name": "CoA",
+"compartement": "c",
+"charge": -4,
+"formula": "C21H32N7O16P3S",
+"annotation": {}
+},
+{
+"id": "accoa_c",
+"name": "acetyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C23H34N7O17P3S",
+"annotation": {}
+},
+{
+"id": "r3mmal_c",
+"name": "D-erythro-3-Methylmalate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H6O5",
+"annotation": {}
+},
+{
+"id": "citac_c",
+"name": "2-Methylmaleate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H4O4",
+"annotation": {}
+},
+{
+"id": "2obut_c",
+"name": "2-Oxobutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H5O3",
+"annotation": {}
+},
+{
+"id": "co2_c",
+"name": "CO2",
+"compartement": "c",
+"charge": 0,
+"formula": "CO2",
+"annotation": {}
+},
+{
+"id": "2ahbut_c",
+"name": "(S)-2-Aceto-2-hydroxybutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H9O4",
+"annotation": {}
+},
+{
+"id": "23dhmp_c",
+"name": "(R)-2,3-Dihydroxy-3-methylpentanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H11O4",
+"annotation": {}
+},
+{
+"id": "ile__L_c",
+"name": "L-Isoleucine",
+"compartement": "c",
+"charge": 0,
+"formula": "C6H13NO2",
+"annotation": {}
+},
+{
+"id": "3mop_c",
+"name": "(S)-3-Methyl-2-oxopentanoic acid",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H9O3",
+"annotation": {}
+},
+{
+"id": "3hmop_c",
+"name": "(R)-3-Hydroxy-3-methyl-2-oxopentanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H9O4",
+"annotation": {}
+},
+{
+"id": "nadp_c",
+"name": "NADP+",
+"compartement": "c",
+"charge": -3,
+"formula": "C21H25N7O17P3",
+"annotation": {}
+},
+{
+"id": "nadph_c",
+"name": "NADPH",
+"compartement": "c",
+"charge": -4,
+"formula": "C21H26N7O17P3",
+"annotation": {}
+},
+{
+"id": "ala__L_c",
+"name": "L-Alanine",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H7NO2",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "asp__L_c",
+"name": "L-Aspartate",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H6NO4",
+"annotation": {}
+},
+{
+"id": "asn__L_c",
+"name": "L-Asparagine",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H8N2O3",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "pro__L_c",
+"name": "L-proline",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H8NO2",
+"annotation": {}
+},
+{
+"id": "arg__L_c",
+"name": "L-arginine",
+"compartement": "c",
+"charge": 1,
+"formula": "C6H15N4O2",
+"annotation": {}
+},
+{
+"id": "glu5sa_c",
+"name": "L-glutamate 5-semialdehyde",
+"compartement": "c",
+"charge": 0,
+"formula": "C5H9NO3",
+"annotation": {}
+},
+{
+"id": "orn_c",
+"name": "L-ornithine",
+"compartement": "c",
+"charge": 1,
+"formula": "C5H13N2O2",
+"annotation": {}
+},
+{
+"id": "urea_c",
+"name": "Urea",
+"compartement": "c",
+"charge": 0,
+"formula": "CH4N2O",
+"annotation": {}
+},
+{
+"id": "gln__L_c",
+"name": "L-glutamine",
+"compartement": "c",
+"charge": 0,
+"formula": "C5H10N2O3",
+"annotation": {}
+},
+{
+"id": "pro__L_c",
+"name": "L-proline",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H8NO2",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "4pasp_c",
+"name": "4-Phospho-L-aspartate",
+"compartement": "c",
+"charge": -2,
+"formula": "C4H6NO7P",
+"annotation": {}
+},
+{
+"id": "adp_c",
+"name": "ADP",
+"compartement": "c",
+"charge": -3,
+"formula": "C10H12N5O10P2",
+"annotation": {}
+},
+{
+"id": "aspsa_c",
+"name": "L-Aspartate 4-semialdehyde",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H7NO3",
+"annotation": {}
+},
+{
+"id": "htpa_c",
+"name": "(2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate",
+"compartement": "c",
+"charge": -1.0,
+"formula": "C7H8NO5",
+"annotation": {}
+},
+{
+"id": "thdp_c",
+"name": "2,3,4,5-Tetrahydrodipicolinate",
+"compartement": "c",
+"charge": -2,
+"formula": "C7H7NO4",
+"annotation": {}
+},
+{
+"id": "26dap_LL_c",
+"name": "LL-2,6-Diaminoheptanedioate",
+"compartement": "c",
+"charge": 0,
+"formula": "C7H14N2O4",
+"annotation": {}
+},
+{
+"id": "26dap__M_c",
+"name": "meso-2,6-Diaminoheptanedioate",
+"compartement": "c",
+"charge": 0,
+"formula": "C7H14N2O4",
+"annotation": {}
+},
+{
+"id": "lys__L_c",
+"name": "L-lysine",
+"compartement": "c",
+"charge": 1,
+"formula": "C6H15N2O2",
+"annotation": {}
+},
+{
+"id": "tyr__L_c",
+"name": "L-tyrosine",
+"compartement": "c",
+"charge": 0,
+"formula": "C9H11NO3",
+"annotation": {}
+},
+{
+"id": "pep_c",
+"name": "Phosphoenolpyruvate",
+"compartement": "c",
+"charge": -3,
+"formula": "C3H2O6P",
+"annotation": {}
+},
+{
+"id": "2dda7p_c",
+"name": "2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate",
+"compartement": "c",
+"charge": -3,
+"formula": "C7H10O10P",
+"annotation": {}
+},
+{
+"id": "3dhq_c",
+"name": "3-dehydroquinate",
+"compartement": "c",
+"charge": -1,
+"formula": "C7H9O6",
+"annotation": {}
+},
+{
+"id": "3dhsk_c",
+"name": "3-dehydroshikimate",
+"compartement": "c",
+"charge": -1,
+"formula": "C7H7O5",
+"annotation": {}
+},
+{
+"id": "skm_c",
+"name": "shikimate",
+"compartement": "c",
+"charge": -1,
+"formula": "C7H9O5",
+"annotation": {}
+},
+{
+"id": "skm5p_c",
+"name": "shikimate 3-phosphate",
+"compartement": "c",
+"charge": -3,
+"formula": "C7H8O8P",
+"annotation": {}
+},
+{
+"id": "3psme_c",
+"name": "5-O-(1-Carboxyvinyl)-3-phosphoshikimate",
+"compartement": "c",
+"charge": -4,
+"formula": "C10H9O10P",
+"annotation": {}
+},
+{
+"id": "chor_c",
+"name": "chorismate",
+"compartement": "c",
+"charge": -2,
+"formula": "C10H8O6",
+"annotation": {}
+},
+{
+"id": "pphn_c",
+"name": "prephenate",
+"compartement": "c",
+"charge": -2,
+"formula": "C10H8O6",
+"annotation": {}
+},
+{
+"id": "34hpp_c",
+"name": "4-hydroxy phenylpyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C9H7O4",
+"annotation": {}
+},
+{
+"id": "phe__L_c",
+"name": "L-phenylalanine",
+"compartement": "c",
+"charge": 0,
+"formula": "C9H11NO2",
+"annotation": {}
+},
+{
+"id": "phpyr_c",
+"name": "phenylpyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C9H7O3",
+"annotation": {}
+},
+{
+"id": "trp__L_c",
+"name": "L-tryptophan",
+"compartement": "c",
+"charge": 0,
+"formula": "C11H12N2O2",
+"annotation": {}
+},
+{
+"id": "val__L_c",
+"name": "L-Valine",
+"compartement": "c",
+"charge": 0,
+"formula": "C5H11NO2",
+"annotation": {}
+},
+{
+"id": "alac__S_c",
+"name": "acetolactate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H7O4",
+"annotation": {}
+},
+{
+"id": "23dhmb_c",
+"name": "R)-2,3-Dihydroxy-3-methylbutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H9O4",
+"annotation": {}
+},
+{
+"id": "3mob_c",
+"name": "2-oxoisovalerate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H7O3",
+"annotation": {}
+},
+{
+"id": "leu__L_c",
+"name": "L-Leucine",
+"compartement": "c",
+"charge": 0,
+"formula": "C6H13NO2",
+"annotation": {}
+},
+{
+"id": "3c3hmp_c",
+"name": "alpha-Isopropylmalate",
+"compartement": "c",
+"charge": -2,
+"formula": "C7H10O5",
+"annotation": {}
+},
+{
+"id": "3c2hmp_c",
+"name": "(2R,3S)-3-Isopropylmalate",
+"compartement": "c",
+"charge": -2,
+"formula": "C7H10O5",
+"annotation": {}
+},
+{
+"id": "4mop_c",
+"name": "2-oxoisocaproate",
+"compartement": "c",
+"charge": -1,
+"formula": "C6H9O3",
+"annotation": {}
+},
+{
+"id": "anth_c",
+"name": "anthranilate",
+"compartement": "c",
+"charge": -1,
+"formula": "C7H6NO2",
+"annotation": {}
+},
+{
+"id": "nh3_c",
+"name": "Ammonia",
+"compartement": "c",
+"charge": 0,
+"formula": "NH3",
+"annotation": {}
+},
+{
+"id": "pran_c",
+"name": "N-(5-Phospho-D-ribosyl)anthranilate",
+"compartement": "c",
+"charge": -3,
+"formula": "C12H13NO9P",
+"annotation": {}
+},
+{
+"id": "2cpr5p_c",
+"name": "1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate",
+"compartement": "c",
+"charge": -3,
+"formula": "C12H13NO9P",
+"annotation": {}
+},
+{
+"id": "3ig3p_c",
+"name": "Indoleglycerol phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C11H12NO6P",
+"annotation": {}
+},
+{
+"id": "indole_c",
+"name": "indole",
+"compartement": "c",
+"charge": 0,
+"formula": "C8H7N",
+"annotation": {}
+},
+{
+"id": "23dhmb_c",
+"name": "(R)-2,3-Dihydroxy-3-methylbutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H9O4",
+"annotation": {}
+}
+],
+"reactions": [
+{
+"id": "TKT2",
+"name": "Transketolase",
+"metabolites": {
+"e4p_c": -1,
+"xu5p__D_c": -1,
+"f6p_c": 1,
+"g3p_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "RPE",
+"name": "Ribulose 5-phosphate 3-epimerase",
+"metabolites": {
+"ru5p__D_c": -1,
+"xu5p__D_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "R5PISO",
+"name": "D-ribose-5-phosphate aldose-ketose-isomerase",
+"metabolites": {
+"r5p_c": -1,
+"ru5p__D_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "R5PDIP",
+"name": "ATP:D-ribose-5-phosphate diphosphotransferase",
+"metabolites": {
+"atp_c": -1,
+"r5p_c": -1,
+"amp_c": 1,
+"prpp_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ATPPRT",
+"name": "ATP phosphoribosyltransferase",
+"metabolites": {
+"atp_c": -1,
+"prpp_c": -1,
+"ppi_c": 1,
+"prbatp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PRATPP",
+"name": "Phosphoribosyl-ATP pyrophosphatase",
+"metabolites": {
+"h2o_c": -1,
+"prbatp_c": -1,
+"h_c": 1,
+"ppi_c": 1,
+"prbamp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PRAMPC_1",
+"name": "Phosphoribosyl AMP cyclohydrolase",
+"metabolites": {
+"h2o_c": -1,
+"prbamp_c": -1,
+"prfp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PRMICI",
+"name": "1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase",
+"metabolites": {
+"prfp_c": -1,
+"prlp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "IMG3PAL",
+"name": "DEFINITION",
+"metabolites": {
+"prlp_c": -1,
+"nh3_c": -1,
+"aicar_c": 1,
+"eig3p_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "IGPDH",
+"name": "Imidazoleglycerol-phosphate dehydratase",
+"metabolites": {
+"eig3p_c": -1,
+"h2o_c": 1,
+"imacp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HSTPT",
+"name": "Histidinol-phosphate transaminase",
+"metabolites": {
+"glu__L_c": -1,
+"imacp_c": -1,
+"akg_c": 1,
+"hisp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HP",
+"name": "Histidinol-phosphatase, cytosol",
+"metabolites": {
+"h2o_c": -1,
+"hisp_c": -1,
+"histd_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HDH",
+"name": "Histidinol dehydrogenase, cytosol",
+"metabolites": {
+"h2o_c": -1,
+"histd_c": -1,
+"nad_c": -2.0,
+"h_c": 3.0,
+"his__L_c": 1,
+"nadh_c": 2.0
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PGCD",
+"name": "Phosphoglycerate dehydrogenase",
+"metabolites": {
+"3pg_c": -1,
+"nad_c": -1,
+"3php_c": 1,
+"h_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PSERT",
+"name": "Phosphoserine transaminase",
+"metabolites": {
+"3php_c": -1,
+"glu__L_c": -1,
+"akg_c": 1,
+"pser__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PSP_L",
+"name": "Phosphoserine phosphatase (L-serine)",
+"metabolites": {
+"h2o_c": -1,
+"pser__L_c": -1,
+"pi_c": 1,
+"ser__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "SPT_syn",
+"name": "Serine-glyoxilate aminotransferase",
+"metabolites": {
+"glx_c": -1,
+"ser__L_c": -1,
+"gly_c": 1,
+"hpyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "THRA",
+"name": "Threonine aldolase",
+"metabolites": {
+"thr__L_c": -1,
+"acald_c": 1,
+"gly_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PLSACT",
+"name": "O-phospho-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase",
+"metabolites": {
+"h_c": -1,
+"pser__L_c": -1,
+"h2s_c": -1,
+"cys__L_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CYSTS",
+"name": "Cystathionine beta synthase",
+"metabolites": {
+"hcys__L_c": -1,
+"ser__L_c": -1,
+"cyst__L_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CYSTL",
+"name": "Cystathionine b-lyase",
+"metabolites": {
+"cyst__L_c": -1,
+"h2o_c": -1,
+"hcys__L_c": 1,
+"nh3_c": 1,
+"h_c": 1,
+"pyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HCYSMT",
+"name": "Homocysteine S-methyltransferase",
+"metabolites": {
+"amet_c": -1,
+"hcys__L_c": -1,
+"ahcys_c": 1,
+"h_c": 1,
+"met__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "R2METHMALSYN",
+"name": "DEFINITION",
+"metabolites": {
+"accoa_c": -1,
+"pyr_c": -1,
+"h2o_c": -1,
+"R2methmal_c": 1,
+"coa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "R2METHMALHL",
+"name": "(R)-2-Methylmalate hydro-lyase (2-methylmaleate-forming)",
+"metabolites": {
+"R2methmal_c": -1,
+"citac_c": 1,
+"h2o_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CITCIb",
+"name": "3-methylmalate hydratase",
+"metabolites": {
+"h2o_c": -1,
+"citac_c": -1,
+"r3mmal_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "3METHMALORED",
+"name": "(2R,3S)-3-methylmalate:NAD+ oxidoreductase",
+"metabolites": {
+"2obut_c": -1,
+"co2_c": -1,
+"nadh_c": -1,
+"r3mmal_c": 1,
+"nad_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACHBS",
+"name": "2-aceto-2-hydroxybutanoate synthase",
+"metabolites": {
+"2obut_c": -1,
+"h_c": -1,
+"pyr_c": -1,
+"2ahbut_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ISOLEUORED",
+"name": "L-Isoleucine:NAD+ oxidoreductase(deaminating)",
+"metabolites": {
+"ile__L_c": -1,
+"nad_c": -1,
+"h2o_c": -1,
+"3mop_c": 1,
+"nh3_c": 1,
+"nadh_c": 1,
+"h_c": 2.0
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DHAD2",
+"name": "Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",
+"metabolites": {
+"23dhmp_c": -1,
+"3mop_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "S2AHBUTORED",
+"name": "(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)",
+"metabolites": {
+"2ahbut_c": -1,
+"3hmop_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "23DHMPENTORED",
+"name": "(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)",
+"metabolites": {
+"23dhmp_c": -1,
+"nadp_c": -1,
+"3hmop_c": 1,
+"nadph_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ALAD_L",
+"name": "L-alanine dehydrogenase",
+"metabolites": {
+"ala__L_c": -1,
+"h2o_c": -1,
+"nad_c": -1,
+"h_c": 1,
+"nadh_c": 1,
+"nh3_c": 1,
+"pyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ASP4DC",
+"name": "Aspartate 4-decarboxylase",
+"metabolites": {
+"asp__L_c": -1,
+"h_c": -1,
+"ala__L_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ASNS2",
+"name": "Asparagine synthetase",
+"metabolites": {
+"asp__L_c": -1,
+"atp_c": -1,
+"nh3_c": -1,
+"amp_c": 1,
+"asn__L_c": 1,
+"ppi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "GDH1",
+"name": "Glutamate dehydrogenase (NAD)",
+"metabolites": {
+"glu__L_c": -1,
+"h2o_c": -1,
+"nad_c": -1,
+"akg_c": 1,
+"h_c": 2.0,
+"nadh_c": 1,
+"nh3_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PUTA3",
+"name": "PUTA3",
+"metabolites": {
+"glu5sa_c": -1,
+"h2o_c": -1,
+"nad_c": -1,
+"glu__L_c": 1,
+"h_c": 2.0,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ORNTA",
+"name": "Ornithine transaminase",
+"metabolites": {
+"akg_c": -1,
+"orn_c": -1,
+"glu__L_c": 1,
+"glu5sa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ARGN",
+"name": "Arginase",
+"metabolites": {
+"arg__L_c": -1,
+"h2o_c": -1,
+"orn_c": 1,
+"urea_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "GLUSx",
+"name": "Glutamate synthase  NADH2 ",
+"metabolites": {
+"akg_c": -1,
+"gln__L_c": -1,
+"h_c": -1,
+"nadh_c": -1,
+"glu__L_c": 2.0,
+"nad_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ORNCD",
+"name": "Ornithine cyclodeaminase",
+"metabolites": {
+"orn_c": -1,
+"nh3_c": 1,
+"h_c": 2.0,
+"pro__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ASPK",
+"name": "Aspartate kinase",
+"metabolites": {
+"asp__L_c": -1,
+"atp_c": -1,
+"4pasp_c": 1,
+"adp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ASAD",
+"name": "Aspartate-semialdehyde dehydrogenase",
+"metabolites": {
+"aspsa_c": -1,
+"nadp_c": -1,
+"pi_c": -1,
+"4pasp_c": 1,
+"h_c": 1,
+"nadph_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HTPAHL",
+"name": "L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing; (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate-forming]",
+"metabolites": {
+"aspsa_c": -1,
+"pyr_c": -1,
+"htpa_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HTPAORED",
+"name": "2,3,4,5-tetrahydrodipicolinate:NAD+ 4-oxidoreductase",
+"metabolites": {
+"thdp_c": -1,
+"nad_c": -1,
+"h2o_c": -1,
+"htpa_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "LDAPAT",
+"name": "LL-diaminopimelate aminotransferase",
+"metabolites": {
+"26dap_LL_c": -1,
+"akg_c": -1,
+"glu__L_c": 1,
+"h_c": 1,
+"h2o_c": 1,
+"thdp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DAPE",
+"name": "Diaminopimelate epimerase",
+"metabolites": {
+"26dap_LL_c": -1,
+"26dap__M_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DAPDC",
+"name": "Diaminopimelate decarboxylase",
+"metabolites": {
+"26dap__M_c": -1,
+"h_c": -1,
+"co2_c": 1,
+"lys__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DDPA",
+"name": "3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase",
+"metabolites": {
+"e4p_c": -1,
+"h2o_c": -1,
+"pep_c": -1,
+"2dda7p_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DHQS",
+"name": "3-dehydroquinate synthase",
+"metabolites": {
+"2dda7p_c": -1,
+"3dhq_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DHQTi",
+"name": "3-dehydroquinate dehydratase, irreversible",
+"metabolites": {
+"3dhq_c": -1,
+"3dhsk_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "SHK3Dr",
+"name": "Shikimate dehydrogenase",
+"metabolites": {
+"3dhsk_c": -1,
+"h_c": -1,
+"nadph_c": -1,
+"nadp_c": 1,
+"skm_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "SHKK",
+"name": "Shikimate kinase",
+"metabolites": {
+"atp_c": -1,
+"skm_c": -1,
+"adp_c": 1,
+"h_c": 1,
+"skm5p_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PSCVT",
+"name": "3-phosphoshikimate 1-carboxyvinyltransferase",
+"metabolites": {
+"pep_c": -1,
+"skm5p_c": -1,
+"3psme_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CHORS",
+"name": "Chorismate synthase",
+"metabolites": {
+"3psme_c": -1,
+"chor_c": 1,
+"pi_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CHORM",
+"name": "Chorismate mutase",
+"metabolites": {
+"chor_c": -1,
+"pphn_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PPND",
+"name": "Prephenate dehydrogenase",
+"metabolites": {
+"nad_c": -1,
+"pphn_c": -1,
+"34hpp_c": 1,
+"co2_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "TYRTA",
+"name": "Tyrosine transaminase",
+"metabolites": {
+"akg_c": -1,
+"tyr__L_c": -1,
+"34hpp_c": 1,
+"glu__L_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PPNDH",
+"name": "Prephenate dehydratase",
+"metabolites": {
+"h_c": -1,
+"pphn_c": -1,
+"co2_c": 1,
+"h2o_c": 1,
+"phpyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PHEORED",
+"name": "L-phenylalanine:NAD+ oxidoreductase (deaminating)",
+"metabolites": {
+"phe__L_c": -1,
+"h2o_c": -1,
+"nad_c": -1,
+"phpyr_c": 1,
+"nh3_c": 1,
+"nadh_c": 1,
+"h_c": 2.0
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACLS",
+"name": "Acetolactate synthase",
+"metabolites": {
+"h_c": -1,
+"pyr_c": -2.0,
+"alac__S_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DIMBUTORED",
+"name": "(2R)-2,3-dihydroxy-3-methylbutanoate:NAD+ oxidoreductase (isomerizing)",
+"metabolites": {
+"23dhmb_c": -1,
+"nad_c": -1,
+"alac__S_c": 1,
+"nadh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DHAD1",
+"name": "Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",
+"metabolites": {
+"23dhmb_c": -1,
+"3mob_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "LVALORED_nadp",
+"name": "L-valine:NADP+ oxidoreductase (deaminating)",
+"metabolites": {
+"val__L_c": -1,
+"nadp_c": -1,
+"h2o_c": -1,
+"3mob_c": 1,
+"nh3_c": 1,
+"nadph_c": 1,
+"h_c": 2.0
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "IPPS",
+"name": "2-isopropylmalate synthase",
+"metabolites": {
+"3mob_c": -1,
+"accoa_c": -1,
+"h2o_c": -1,
+"3c3hmp_c": 1,
+"coa_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ISOPROPMALSYN",
+"name": "(2R,3S)-3-isopropylmalate hydro-lyase (2-isopropylmaleate-forming)",
+"metabolites": {
+"3c2hmp_c": -1,
+"3c3hmp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ISOPROPMALORED",
+"name": "(2R,3S)-3-isopropylmalate:NAD+ oxidoreductase",
+"metabolites": {
+"3c2hmp_c": -1,
+"nad_c": -1,
+"4mop_c": 1,
+"co2_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "LLEUDr",
+"name": "L leucine dehydrogenase",
+"metabolites": {
+"h2o_c": -1,
+"leu__L_c": -1,
+"nad_c": -1,
+"4mop_c": 1,
+"h_c": 1,
+"nadh_c": 1,
+"nh3_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ANS2",
+"name": "Anthranilate synthase 2",
+"metabolites": {
+"chor_c": -1,
+"nh3_c": -1,
+"anth_c": 1,
+"h2o_c": 1,
+"pyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ANPRT",
+"name": "Anthranilate phosphoribosyltransferase",
+"metabolites": {
+"anth_c": -1,
+"prpp_c": -1,
+"ppi_c": 1,
+"pran_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PRAIi",
+"name": "Phosphoribosylanthranilate isomerase (irreversible)",
+"metabolites": {
+"pran_c": -1,
+"2cpr5p_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "IGPS",
+"name": "Indole-3-glycerol-phosphate synthase",
+"metabolites": {
+"2cpr5p_c": -1,
+"h_c": -1,
+"3ig3p_c": 1,
+"co2_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "TRPS3",
+"name": "Tryptophan synthase (indoleglycerol phosphate)",
+"metabolites": {
+"3ig3p_c": -1,
+"g3p_c": 1,
+"indole_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "TRPAS2",
+"name": "Tryptophanase (L-tryptophan)",
+"metabolites": {
+"h2o_c": -1,
+"trp__L_c": -1,
+"indole_c": 1,
+"nh3_c": 1,
+"h_c": 1,
+"pyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+}
+],
+"genes": [],
+"id": "test",
+"name": "j",
+"compartments": {
+"c": "cytosol",
+"e": "extracellular"
+},
+"version": "1"
+}

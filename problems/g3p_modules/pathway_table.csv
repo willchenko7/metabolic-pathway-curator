@@ -1,0 +1,10 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+dhap,dihydroxyacetone phosphate,['TPI'],dhap,,g3p,,
+glyc3p,glycerol 3-phosphate,"['TPI', 'G3PD1ir']",glyc3p,,g3p,,
+dha,glycerone,"['TPI', 'ALKP']",dha,,g3p,,
+glyc,glycerol,"['TPI', 'ALKP', 'GLYCDx']",glyc,,g3p,,
+3hppnl,3-hydroxypropanal,"['TPI', 'ALKP', 'GLYCDx', 'GLYCDH']",3hppnl,,g3p,,
+13ppd,"1,3-propanediol","['TPI', 'ALKP', 'GLYCDx', 'GLYCDH', '13PPDH']",13ppd,,g3p,,
+mthgxl,methylglyoxal,"['TPI', 'MGSA']",mthgxl,,g3p,,
+lald__L,lactaldehyde,"['TPI', 'MGSA', 'LALDO3']",lald__L,,g3p,,
+acetol,acetol,"['TPI', 'MGSA', 'ALR2']",acetol,,g3p,,

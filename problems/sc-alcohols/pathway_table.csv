@@ -1,0 +1,6 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+methanol_acetyl-coa_0,methanol_acetyl-coa_0,"['KAT1', 'ACACCOAHYLASE', 'ACACCOACLASE', 'ACETONEORED', 'METHACHYLASE']",meoh,,accoa,,
+1-propanol_acetyl-coa_0,1-propanol_acetyl-coa_0,"['MMSAD3', '3HPPD', '3HYPROPCOALIG', 'HPHL', 'PROPCOAORED', 'MMSAD2', 'ALCD3ir']",ppoh,,accoa,,
+2-propanol_acetyl-coa_0,2-propanol_acetyl-coa_0,"['KAT1', 'ACACCOAHYLASE', 'ACACCOACLASE', '2PPOHORED']",2ppoh,,accoa,,
+isobutanol_pyruvate_0,isobutanol_pyruvate_0,"['ACLS', 'DIMBUTORED', 'DHAD1', 'KIVDC1', 'ALCD_ibut']",ibut,,pyr,,
+butanol_acetyl-coa_43,butanol_acetyl-coa_43,"['ACACCT', 'HACD1', 'RS3HBUTCOISO', 'R3HYBUTCOAHY', 'BUTCOAORED', 'BTCOARx', 'ALCD4']",btoh,,accoa,,

@@ -1,0 +1,10 @@
+id,name,rxn_str,kegg_id,bigg_id,ec_number,notes
+TPI,Triose-phosphate isomerase,dhap_c <=> g3p_c,R01015,TPI,,
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,dhap_c + h_c + nadh_c <=> glyc3p_c + nad_c,R00842,G3PD1ir,,
+ALKP,Alkaline phosphatase,dhap_c + h2o_c <=> dha_c + pi_c,R01010,ALKP,,
+GLYCDx,Glycerol dehydrogenase,glyc_c + nad_c <=> dha_c + h_c + nadh_c,R01034,GLYCDx,,
+GLYCDH,Glycerol dehydratase,glyc_c <=> h2o_c + 3hppnl_c,R01047,GLYCDH,,
+13PPDH,"1,3-propanediol dehydrogenase",h_c + nadh_c + 3hppnl_c <=> nad_c + 13ppd_c,R03119,13PPDH,,
+MGSA,Methylglyoxal synthase,dhap_c <=> mthgxl_c + pi_c,R01016,MGSA,,
+LALDO3,L-Lactaldehyde:NADP+ 1-oxidoreductase,h_c + mthgxl_c + nadph_c <=> lald__L_c + nadp_c,R02260,LALDO3,,
+ALR2,Aldose reductase (methylglyoxal),h_c + mthgxl_c + nadph_c <=> acetol_c + nadp_c,R02528,ALR2,,

@@ -1,0 +1,10 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+glyc__R,d-glycerate,['GLYCK'],glyc__R,,3pg,,
+glyald,d-glyceraldehyde,"['GLYCK', 'GLYALDDr']",glyald,,3pg,,
+glyc,glycerol,"['GLYCK', 'GLYALDDr', 'ALCD19']",glyc,,3pg,,
+3hppnl,3-hydroxypropanal,"['GLYCK', 'GLYALDDr', 'ALCD19', 'GLYCDH']",3hppnl,,3pg,,
+13ppd,"1,3-propanediol","['GLYCK', 'GLYALDDr', 'ALCD19', 'GLYCDH', '13PPDH']",13ppd,,3pg,,
+3php,3-phosphooxypyruvate,['PGCD'],3php,,3pg,,
+pser__L,O-phospho-L-serine,"['PGCD', 'PSERT']",pser__L,,3pg,,
+ser__L,L-serine,"['PGCD', 'PSERT', 'PSP_L']",ser__L,,3pg,,
+gly,glycine,"['PGCD', 'PSERT', 'PSP_L', 'SPT_syn']",gly,,3pg,,

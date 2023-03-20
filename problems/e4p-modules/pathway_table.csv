@@ -1,0 +1,12 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+anthranilate_D-Erythrose 4-phosphate_0,anthranilate_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2']",anth,,e4p,,
+cinnamic acid_D-Erythrose 4-phosphate_0,cinnamic acid_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'CHORM', 'PPNDH', 'PHEORED', 'PHEAL_cinn']",cinnm,,e4p,,
+styrene_D-Erythrose 4-phosphate_0,styrene_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'CHORM', 'PPNDH', 'PHEORED', 'PHEAL_cinn', 'CINNCLASE']",styrene,,e4p,,
+phenol_D-Erythrose 4-phosphate_0,phenol_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'CHORM', 'PPND', 'TYRTA', 'TYRPHENOLASE']",phenol,,e4p,,
+catechol_D-Erythrose 4-phosphate_0,catechol_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2', 'ANTHRANORED']",catechol,,e4p,,
+coumaric acid_D-Erythrose 4-phosphate_0,coumaric acid_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'CHORM', 'PPND', 'TYRTA', 'TAL']",T4hcinnm,,e4p,,
+resveratrol_D-Erythrose 4-phosphate_0,resveratrol_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'CHORM', 'PPND', 'TYRTA', 'TAL', '4CMCOAS', 'COUCOAMALCOAT']",resv,,e4p,,
+indole_D-Erythrose 4-phosphate_0,indole_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2', 'ANPRT', 'PRAIi', 'IGPS', 'TRPS3']",indole,,e4p,,
+aniline_D-Erythrose 4-phosphate_0,aniline_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2', 'ANILINECLASE']",aniline,,e4p,,
+serotonin_D-Erythrose 4-phosphate_0,serotonin_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2', 'ANPRT', 'PRAIi', 'IGPS', 'TRPS3', 'TRPAS2', '5LTRPSYN', '5LTRPDCLASE']",srtn,,e4p,,
+melatonin_D-Erythrose 4-phosphate_0,melatonin_D-Erythrose 4-phosphate_0,"['DDPA', 'DHQS', 'DHQTi', 'SHK3Dr', 'SHKK', 'PSCVT', 'CHORS', 'ANS2', 'ANPRT', 'PRAIi', 'IGPS', 'TRPS3', 'TRPAS2', '5LTRPSYN', '5LTRPDCLASE', 'NACSRTNSYN', 'MELTONINSYN']",meltonin,,e4p,,

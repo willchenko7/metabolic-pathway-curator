@@ -1,0 +1,742 @@
+{
+"metabolites": [
+{
+"id": "meoh_c",
+"name": "methanol",
+"compartement": "c",
+"charge": 0,
+"formula": "CH4O",
+"annotation": {}
+},
+{
+"id": "aacoa_c",
+"name": "acetoacetyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H36N7O18P3S",
+"annotation": {}
+},
+{
+"id": "coa_c",
+"name": "CoA",
+"compartement": "c",
+"charge": -4,
+"formula": "C21H32N7O16P3S",
+"annotation": {}
+},
+{
+"id": "accoa_c",
+"name": "acetyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C23H34N7O17P3S",
+"annotation": {}
+},
+{
+"id": "h2o_c",
+"name": "H2O",
+"compartement": "c",
+"charge": 0,
+"formula": "H2O",
+"annotation": {}
+},
+{
+"id": "h_c",
+"name": "H+",
+"compartement": "c",
+"charge": 1,
+"formula": "H",
+"annotation": {}
+},
+{
+"id": "acetone_c",
+"name": "acetone",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H6O",
+"annotation": {}
+},
+{
+"id": "co2_c",
+"name": "CO2",
+"compartement": "c",
+"charge": 0,
+"formula": "CO2",
+"annotation": {}
+},
+{
+"id": "nadph_c",
+"name": "NADPH",
+"compartement": "c",
+"charge": -4,
+"formula": "C21H26N7O17P3",
+"annotation": {}
+},
+{
+"id": "o2_c",
+"name": "Oxygen",
+"compartement": "c",
+"charge": 0,
+"formula": "O2",
+"annotation": {}
+},
+{
+"id": "meth_ac_c",
+"name": "methyl acetate",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H6O2",
+"annotation": {}
+},
+{
+"id": "nadp_c",
+"name": "NADP+",
+"compartement": "c",
+"charge": -3,
+"formula": "C21H25N7O17P3",
+"annotation": {}
+},
+{
+"id": "ac_c",
+"name": "Acetate",
+"compartement": "c",
+"charge": -1,
+"formula": "C2H3O2",
+"annotation": {}
+},
+{
+"id": "ppoh_c",
+"name": "1-propanol",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H8O",
+"annotation": {}
+},
+{
+"id": "msa_c",
+"name": "malonate semialdehyde",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H3O3",
+"annotation": {}
+},
+{
+"id": "nad_c",
+"name": "NAD+",
+"compartement": "c",
+"charge": -1,
+"formula": "C21H26N7O14P2",
+"annotation": {}
+},
+{
+"id": "nadh_c",
+"name": "NADH",
+"compartement": "c",
+"charge": -2,
+"formula": "C21H27N7O14P2",
+"annotation": {}
+},
+{
+"id": "3hpp_c",
+"name": "3-hydroxypropanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H5O3",
+"annotation": {}
+},
+{
+"id": "3hpcoa_c",
+"name": "3-hydroxypropionyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C24H36N7O18P3S",
+"annotation": {}
+},
+{
+"id": "ppi_c",
+"name": "Diphosphate",
+"compartement": "c",
+"charge": -3,
+"formula": "H1P2O7",
+"annotation": {}
+},
+{
+"id": "amp_c",
+"name": "AMP",
+"compartement": "c",
+"charge": -2,
+"formula": "C10H12N5O7P",
+"annotation": {}
+},
+{
+"id": "atp_c",
+"name": "atp",
+"compartement": "c",
+"charge": -4,
+"formula": "C10H12N5O13P3",
+"annotation": {}
+},
+{
+"id": "prpncoa_c",
+"name": "acryloyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C24H34N7O17P3S",
+"annotation": {}
+},
+{
+"id": "ppcoa_c",
+"name": "propanoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C24H36N7O17P3S",
+"annotation": {}
+},
+{
+"id": "ppal_c",
+"name": "propanal",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H6O",
+"annotation": {}
+},
+{
+"id": "2ppoh_c",
+"name": "2-propanol",
+"compartement": "c",
+"charge": 0,
+"formula": "C3H8O",
+"annotation": {}
+},
+{
+"id": "ibut_c",
+"name": "isobutanol",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H9O",
+"annotation": {}
+},
+{
+"id": "pyr_c",
+"name": "pyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H3O3",
+"annotation": {}
+},
+{
+"id": "alac__S_c",
+"name": "acetolactate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H7O4",
+"annotation": {}
+},
+{
+"id": "3mob_c",
+"name": "2-oxoisovalerate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H7O3",
+"annotation": {}
+},
+{
+"id": "ibutald_c",
+"name": "isobutyraldehyde",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H7O",
+"annotation": {}
+},
+{
+"id": "ghb_c",
+"name": "4-hydroxybutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H7O3",
+"annotation": {}
+},
+{
+"id": "4hbutcoa_c",
+"name": "4-hydroxybutanoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H38N7O18P3S",
+"annotation": {}
+},
+{
+"id": "b2coa_c",
+"name": "crotonoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H36N7O17P3S",
+"annotation": {}
+},
+{
+"id": "btcoa_c",
+"name": "butanoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H38N7O17P3S",
+"annotation": {}
+},
+{
+"id": "btal_c",
+"name": "butanal",
+"compartement": "c",
+"charge": 0,
+"formula": "C4H8O",
+"annotation": {}
+},
+{
+"id": "btoh_c",
+"name": "butanol",
+"compartement": "c",
+"charge": "NA",
+"formula": "C4H10O",
+"annotation": {}
+},
+{
+"id": "acac_c",
+"name": "acetoacetate",
+"compartement": "c",
+"charge": -1,
+"formula": "C4H5O3",
+"annotation": {}
+},
+{
+"id": "23dhmb_c",
+"name": "(R)-2,3-Dihydroxy-3-methylbutanoate",
+"compartement": "c",
+"charge": -1,
+"formula": "C5H9O4",
+"annotation": {}
+},
+{
+"id": "accoa_c",
+"name": "acetyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C23H34N7O17P3S",
+"annotation": {}
+},
+{
+"id": "3hbcoa_c",
+"name": "(S)-3-hydroxybutanoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H38N7O18P3S",
+"annotation": {}
+},
+{
+"id": "R3hybutcoa_c",
+"name": "(R)-3-hydroxybutanoyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C25H38N7O18P3S",
+"annotation": {}
+},
+{
+"id": "fad_c",
+"name": "FAD",
+"compartement": "c",
+"charge": -2,
+"formula": "C27H31N9O15P2",
+"annotation": {}
+},
+{
+"id": "fadh2_c",
+"name": "FADH2",
+"compartement": "c",
+"charge": -2,
+"formula": "C27H33N9O15P2",
+"annotation": {}
+}
+],
+"reactions": [
+{
+"id": "KAT1",
+"name": "3-ketoacyl-CoA thiolase",
+"metabolites": {
+"aacoa_c": -1,
+"coa_c": -1,
+"accoa_c": 2.0
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACACCOAHYLASE",
+"name": "acetoacetyl-CoA hydrolase",
+"metabolites": {
+"aacoa_c": -1,
+"h2o_c": -1,
+"acac_c": 1,
+"coa_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACACCOACLASE",
+"name": "Acetoacetate carboxy-lyase (acetone-forming)",
+"metabolites": {
+"h_c": -1,
+"acac_c": -1,
+"acetone_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACETONEORED",
+"name": "acetone,NADPH:oxygen oxidoreductase (methyl acetate-forming)",
+"metabolites": {
+"acetone_c": -1,
+"nadph_c": -1,
+"h_c": -1,
+"o2_c": -1,
+"meth_ac_c": 1,
+"nadp_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "METHACHYLASE",
+"name": "methyl acetate acetohydrolase",
+"metabolites": {
+"meth_ac_c": -1,
+"h2o_c": -1,
+"ac_c": 1,
+"meoh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "MMSAD3",
+"name": "Methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde)",
+"metabolites": {
+"coa_c": -1,
+"msa_c": -1,
+"nad_c": -1,
+"accoa_c": 1,
+"co2_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "3HPPD",
+"name": "3-hydroxypropionate dehydrogenase",
+"metabolites": {
+"3hpp_c": -1,
+"nad_c": -1,
+"h_c": 1,
+"msa_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "3HYPROPCOALIG",
+"name": "3-hydroxypropionate:CoA ligase (AMP-forming)",
+"metabolites": {
+"3hpcoa_c": -1,
+"ppi_c": -1,
+"amp_c": -1,
+"3hpp_c": 1,
+"coa_c": 1,
+"atp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HPHL",
+"name": "3-Hydroxypropionyl-CoA hydro-lyase",
+"metabolites": {
+"3hpcoa_c": -1,
+"h2o_c": 1,
+"prpncoa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PROPCOAORED",
+"name": "propanoyl-CoA:NAD+ oxidoreductase",
+"metabolites": {
+"ppcoa_c": -1,
+"nad_c": -1,
+"prpncoa_c": 1,
+"nadh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "MMSAD2",
+"name": "Methylmalonate-semialdehyde dehydrogenase (propanol)",
+"metabolites": {
+"coa_c": -1,
+"nad_c": -1,
+"ppal_c": -1,
+"h_c": 1,
+"nadh_c": 1,
+"ppcoa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ALCD3ir",
+"name": "Alcohol dehydrogenase Propanal ",
+"metabolites": {
+"h_c": -1,
+"nadh_c": -1,
+"ppal_c": -1,
+"nad_c": 1,
+"ppoh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "2PPOHORED",
+"name": "propan-2-ol:NAD+ oxidoreductase",
+"metabolites": {
+"2ppoh_c": -1,
+"nad_c": -1,
+"acetone_c": 1,
+"nadh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PPOHORED",
+"name": "propan-2-ol:NAD+ oxidoreductase",
+"metabolites": {
+"2ppoh_c": -1,
+"nad_c": -1,
+"acetone_c": 1,
+"nadh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACLS",
+"name": "Acetolactate synthase",
+"metabolites": {
+"h_c": -1,
+"pyr_c": -2.0,
+"alac__S_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DIMBUTORED",
+"name": "(2R)-2,3-dihydroxy-3-methylbutanoate:NAD+ oxidoreductase (isomerizing)",
+"metabolites": {
+"23dhmb_c": -1,
+"nad_c": -1,
+"alac__S_c": 1,
+"nadh_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "DHAD1",
+"name": "Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",
+"metabolites": {
+"23dhmb_c": -1,
+"3mob_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "KIVDC1",
+"name": "KIV Decarboxylase 1",
+"metabolites": {
+"3mob_c": -1,
+"ibutald_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ALCD_ibut",
+"name": "Alcohol Dehydrogenase (isobutanol)",
+"metabolites": {
+"nad_c": -1,
+"ibut_c": -1,
+"ibutald_c": 1,
+"h_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "4HYBUTCOACT",
+"name": "acetyl-CoA:4-hydroxybutanoate CoA-transferase",
+"metabolites": {
+"ghb_c": -1,
+"accoa_c": -1,
+"4hbutcoa_c": 1,
+"ac_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "4HYBUTCOAHLASE",
+"name": "4-hydroxybutanoyl-CoA hydro-lyase",
+"metabolites": {
+"4hbutcoa_c": -1,
+"b2coa_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACOAD1",
+"name": "Acyl-CoA dehydrogenase (butanoyl-CoA)",
+"metabolites": {
+"b2coa_c": -1,
+"h_c": -1,
+"nadh_c": -1,
+"btcoa_c": 1,
+"nad_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "BTCOARx",
+"name": "Butyryl-coA reductase (NADH)",
+"metabolites": {
+"btcoa_c": -1,
+"h_c": -1,
+"nadh_c": -1,
+"btal_c": 1,
+"coa_c": 1,
+"nad_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ALCD4",
+"name": "Alcohol dehydrogenase (butanol)",
+"metabolites": {
+"nad_c": -1,
+"btoh_c": -1,
+"btal_c": 1,
+"h_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACACCT",
+"name": "Acetyl-CoA:acetoacetyl-CoA transferase",
+"metabolites": {
+"acac_c": -1,
+"accoa_c": -1,
+"aacoa_c": 1,
+"ac_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "HACD1",
+"name": "3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA)",
+"metabolites": {
+"aacoa_c": -1,
+"h_c": -1,
+"nadh_c": -1,
+"3hbcoa_c": 1,
+"nad_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "RS3HBUTCOISO",
+"name": "(S)-3-Hydroxybutanoyl-CoA 3-epimerase",
+"metabolites": {
+"3hbcoa_c": -1,
+"R3hybutcoa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "R3HYBUTCOAHY",
+"name": "(3R)-3-hydroxybutanoyl-CoA hydro-lyase",
+"metabolites": {
+"R3hybutcoa_c": -1,
+"b2coa_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACOAD1f",
+"name": "Acyl-CoA dehydrogenase (butanoyl-CoA)",
+"metabolites": {
+"btcoa_c": -1,
+"fad_c": -1,
+"b2coa_c": 1,
+"fadh2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "BUTCOAORED",
+"name": "butanoyl-CoA:NADP+ 2,3-oxidoreductase",
+"metabolites": {
+"btcoa_c": -1,
+"nadp_c": -1,
+"b2coa_c": 1,
+"nadph_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+}
+],
+"genes": [],
+"id": "test",
+"name": "j",
+"compartments": {
+"c": "cytosol",
+"e": "extracellular"
+},
+"version": "1"
+}

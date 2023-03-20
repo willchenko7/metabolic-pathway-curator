@@ -1,0 +1,337 @@
+{
+"metabolites": [
+{
+"id": "h_c",
+"name": "H+",
+"compartement": "c",
+"charge": 1,
+"formula": "H",
+"annotation": {}
+},
+{
+"id": "pyr_c",
+"name": "pyruvate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H3O3",
+"annotation": {}
+},
+{
+"id": "acald_c",
+"name": "acetaldehyde",
+"compartement": "c",
+"charge": 0,
+"formula": "C2H4O",
+"annotation": {}
+},
+{
+"id": "co2_c",
+"name": "CO2",
+"compartement": "c",
+"charge": 0,
+"formula": "CO2",
+"annotation": {}
+},
+{
+"id": "etoh_c",
+"name": "ethanol",
+"compartement": "c",
+"charge": 0,
+"formula": "C2H6O",
+"annotation": {}
+},
+{
+"id": "nad_c",
+"name": "NAD+",
+"compartement": "c",
+"charge": -1,
+"formula": "C21H26N7O14P2",
+"annotation": {}
+},
+{
+"id": "nadh_c",
+"name": "NADH",
+"compartement": "c",
+"charge": -2,
+"formula": "C21H27N7O14P2",
+"annotation": {}
+},
+{
+"id": "lac__D_c",
+"name": "lactate",
+"compartement": "c",
+"charge": -1,
+"formula": "C3H5O3",
+"annotation": {}
+},
+{
+"id": "accoa_c",
+"name": "acetyl-coa",
+"compartement": "c",
+"charge": -4,
+"formula": "C23H34N7O17P3S",
+"annotation": {}
+},
+{
+"id": "pi_c",
+"name": "Orthophosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "H1PO4",
+"annotation": {}
+},
+{
+"id": "actp_c",
+"name": "acetyl phosphate",
+"compartement": "c",
+"charge": -2,
+"formula": "C2H3O5P",
+"annotation": {}
+},
+{
+"id": "coa_c",
+"name": "CoA",
+"compartement": "c",
+"charge": -4,
+"formula": "C21H32N7O16P3S",
+"annotation": {}
+},
+{
+"id": "ac_c",
+"name": "Acetate",
+"compartement": "c",
+"charge": -1,
+"formula": "C2H3O2",
+"annotation": {}
+},
+{
+"id": "atp_c",
+"name": "atp",
+"compartement": "c",
+"charge": -4,
+"formula": "C10H12N5O13P3",
+"annotation": {}
+},
+{
+"id": "adp_c",
+"name": "ADP",
+"compartement": "c",
+"charge": -3,
+"formula": "C10H12N5O10P2",
+"annotation": {}
+},
+{
+"id": "h2o_c",
+"name": "H2O",
+"compartement": "c",
+"charge": 0,
+"formula": "H2O",
+"annotation": {}
+},
+{
+"id": "oaa_c",
+"name": "Oxaloacetate",
+"compartement": "c",
+"charge": -2,
+"formula": "C4H2O5",
+"annotation": {}
+},
+{
+"id": "cit_c",
+"name": "citrate",
+"compartement": "c",
+"charge": -3,
+"formula": "C6H5O7",
+"annotation": {}
+},
+{
+"id": "acon_C_c",
+"name": "cis-aconitate",
+"compartement": "c",
+"charge": -3,
+"formula": "C6H3O6",
+"annotation": {}
+},
+{
+"id": "icit_c",
+"name": "isocitrate",
+"compartement": "c",
+"charge": -3,
+"formula": "C6H5O7",
+"annotation": {}
+},
+{
+"id": "akg_c",
+"name": "2-oxoglutarate",
+"compartement": "c",
+"charge": -2,
+"formula": "C5H4O5",
+"annotation": {}
+},
+{
+"id": "succoa_c",
+"name": "succinyl-coa",
+"compartement": "c",
+"charge": -5,
+"formula": "C25H35N7O19P3S",
+"annotation": {}
+},
+{
+"id": "succ_c",
+"name": "Succinate",
+"compartement": "c",
+"charge": -2,
+"formula": "C4H4O4",
+"annotation": {}
+}
+],
+"reactions": [
+{
+"id": "PYRDC",
+"name": "Pyruvate decarboxylase",
+"metabolites": {
+"h_c": -1,
+"pyr_c": -1,
+"acald_c": 1,
+"co2_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ALCD2x",
+"name": "Alcohol dehydrogenase (ethanol)",
+"metabolites": {
+"etoh_c": -1,
+"nad_c": -1,
+"acald_c": 1,
+"h_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "LDH_D",
+"name": "D-lactate dehydrogenase",
+"metabolites": {
+"lac__D_c": -1,
+"nad_c": -1,
+"h_c": 1,
+"nadh_c": 1,
+"pyr_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "PTAr",
+"name": "Phosphotransacetylase",
+"metabolites": {
+"accoa_c": -1,
+"pi_c": -1,
+"actp_c": 1,
+"coa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACKr",
+"name": "Acetate kinase",
+"metabolites": {
+"ac_c": -1,
+"atp_c": -1,
+"actp_c": 1,
+"adp_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "CS",
+"name": "Citrate synthase",
+"metabolites": {
+"accoa_c": -1,
+"h2o_c": -1,
+"oaa_c": -1,
+"cit_c": 1,
+"coa_c": 1,
+"h_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACONTa",
+"name": "Aconitase (half-reaction A, Citrate hydro-lyase)",
+"metabolites": {
+"cit_c": -1,
+"acon_C_c": 1,
+"h2o_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ACONTb",
+"name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)",
+"metabolites": {
+"acon_C_c": -1,
+"h2o_c": -1,
+"icit_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "ICDHx",
+"name": "Isocitrate dehydrogenase (NAD)",
+"metabolites": {
+"icit_c": -1,
+"nad_c": -1,
+"akg_c": 1,
+"co2_c": 1,
+"nadh_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "AKGDH",
+"name": "2-Oxogluterate dehydrogenase",
+"metabolites": {
+"akg_c": -1,
+"coa_c": -1,
+"nad_c": -1,
+"co2_c": 1,
+"nadh_c": 1,
+"succoa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+},
+{
+"id": "SUCOAS",
+"name": "Succinyl-CoA synthetase (ADP-forming)",
+"metabolites": {
+"atp_c": -1,
+"coa_c": -1,
+"succ_c": -1,
+"adp_c": 1,
+"pi_c": 1,
+"succoa_c": 1
+},
+"lower_bound": -1000,
+"upper_bound": 1000
+}
+],
+"genes": [],
+"id": "test",
+"name": "j",
+"compartments": {
+"c": "cytosol",
+"e": "extracellular"
+},
+"version": "1"
+}

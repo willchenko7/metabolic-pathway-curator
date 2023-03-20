@@ -1,0 +1,6 @@
+id,name,rxns,product_id,product_tags,precursor_ids,litref,notes
+ethanol_pyruvate_6,ethanol_pyruvate_6,"['PYRDC', 'ALCD2x']",etoh,,pyr,,
+lactate_pyruvate_0,lactate_pyruvate_0,['LDH_D'],lac__D,,pyr,,
+acetate_acetyl-coa_0,acetate_acetyl-coa_0,"['PTAr', 'ACKr']",ac,,accoa,,
+succinate_acetyl-coa_0,succinate_acetyl-coa_0,"['CS', 'ACONTa', 'ACONTb', 'ICDHx', 'AKGDH', 'SUCOAS']",succ,,accoa,,
+citrate_acetyl-coa_0,citrate_acetyl-coa_0,['CS'],cit,,accoa,,

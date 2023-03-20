@@ -1,0 +1,2 @@
+id,name,rxn_str,kegg_id,bigg_id,ec_number,notes
+ALCD2x,Alcohol dehydrogenase (ethanol),etoh_c + nad_c <=> acald_c + h_c + nadh_c,R00754,ALCD2x,,
